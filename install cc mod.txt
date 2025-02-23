@@ -7,3 +7,4 @@ cd modminer
 clear
 chmod +x modminer start.sh
 bash start.sh
+
