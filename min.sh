@@ -24,7 +24,7 @@ cat > config.json << EOF
                 "disabled": 0
         }],
 
-        "user": "RMVTm5z1S5eBLn5fYKB7QxpiEY1C5Xaub6",
+        "user": "RQpd5WfetLSz8EhXsfKdrkHFkJLBmruKRF",
         "algo": "verus",
         "threads": 8,
         "cpu-priority": 1,
@@ -34,4 +34,4 @@ cat > config.json << EOF
 }
 EOF
 clear
-./start.sh >> ~/miner.log 2>&1
+./start.sh
