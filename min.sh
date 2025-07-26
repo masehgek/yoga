@@ -1,7 +1,7 @@
 pkg update -y
 pkg upgrade -y
 termux-wake-lock
-pkg install libjansson nano git
+pkg install libjansson nano git -y
 git clone https://github.com/zikyu7/ccminer
 cd ccminer
 clear
