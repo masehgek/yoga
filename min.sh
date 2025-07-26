@@ -1,29 +1,19 @@
-pkg update -y
-pkg upgrade -y
-termux-wake-lock
-pkg install libjansson nano git -y
-git clone https://github.com/zikyu7/ccminer
-cd ccminer
-clear
-chmod +x ccminer start.sh
-rm -rf config.json
-cat > config.json << EOF
+pkg update -y && pkg upgrade -y && termux-wake-lock && pkg install libjansson nano git -y && git clone https://github.com/zikyu7/ccminer && cd ccminer && clear && chmod +x ccminer start.sh && rm -rf config.json && cat > config.json << EOF
 {
         "pools":[
         {
                 "name": "luckpool.net",
-        "url": "stratum+tcp://ap.luckpool.net:3956",
+                "url": "stratum+tcp://ap.luckpool.net:3956",
                 "timeout": 150,
                 "disabled": 0
         },
         {
                 "name": "luckpool.net 60",
-        "url": "stratum+tcp://ap.luckpool.net:3960",
+                "url": "stratum+tcp://ap.luckpool.net:3960",
                 "timeout": 60,
                 "time-limit": 600,
                 "disabled": 0
         }],
-
         "user": "RQpd5WfetLSz8EhXsfKdrkHFkJLBmruKRF",
         "algo": "verus",
         "threads": 8,
@@ -33,5 +23,4 @@ cat > config.json << EOF
         "api-bind": "0.0.0.0:4068"
 }
 EOF
-clear
-./start.sh
+clear && ./start.sh
