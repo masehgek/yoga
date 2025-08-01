@@ -5,14 +5,12 @@ Copy dan jalankan perintah berikut di Termux Anda untuk install langsung:
 
 Versi Wget
 ```bash
-wget -qO- https://raw.githubusercontent.com/masehgek/yoga/main/min.sh | bash
-
+wget -qO- https://raw.githubusercontent.com/masehgek/yoga/main/min.sh | bash;
 ```
 Versi Curl
 
 ```bash
-curl -sL https://raw.githubusercontent.com/masehgek/yoga/main/min.sh | bash
-
+curl -sL https://raw.githubusercontent.com/masehgek/yoga/main/min.sh | bash;
 ```
 
 📲 Install Termux
