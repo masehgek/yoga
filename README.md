@@ -11,6 +11,7 @@ Versi Curl
 
 ```bash
 curl -sL https://raw.githubusercontent.com/masehgek/yoga/main/min.sh | bash
+
 ```
 
 📲 Install Termux
