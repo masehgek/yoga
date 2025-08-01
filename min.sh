@@ -23,4 +23,4 @@ pkg update -y && pkg upgrade -y && termux-wake-lock && pkg install libjansson na
         "api-bind": "0.0.0.0:4068"
 }
 EOF
-clear && ./start.sh
+clear && bash start.sh
