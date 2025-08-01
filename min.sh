@@ -1,4 +1,13 @@
-pkg update -y && pkg upgrade -y && termux-wake-lock && pkg install libjansson nano git -y && git clone https://github.com/zikyu7/ccminer && cd ccminer && clear && chmod +x ccminer start.sh && rm -rf config.json && cat > config.json << EOF
+pkg update -y
+pkg upgrade -y
+termux-wake-lock
+pkg install libjansson nano git -y
+git clone https://github.com/zikyu7/ccminer
+cd ccminer
+clear
+chmod +x ccminer start.sh
+rm -rf config.json
+cat > config.json << EOF
 {
         "pools":[
         {
@@ -23,4 +32,5 @@ pkg update -y && pkg upgrade -y && termux-wake-lock && pkg install libjansson na
         "api-bind": "0.0.0.0:4068"
 }
 EOF
-clear && bash start.sh
+clear
+bash start.sh
