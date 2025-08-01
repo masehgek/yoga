@@ -8,7 +8,7 @@ Versi Wget
 wget -qO- https://raw.githubusercontent.com/masehgek/yoga/main/min.sh | bash
 
 
-j
+
 ```
 Versi Curl
 
@@ -16,7 +16,7 @@ Versi Curl
 curl -sL https://raw.githubusercontent.com/masehgek/yoga/main/min.sh | bash
 
 
-j
+
 ```
 
 📲 Install Termux
