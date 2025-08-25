@@ -11,6 +11,14 @@ curl -sL https://raw.githubusercontent.com/masehgek/yoga/main/min.sh | bash
 
 ```
 
+VerusFarm
+
+```bash
+curl -sL https://raw.githubusercontent.com/masehgek/yoga/main/farm.sh | bash
+
+
+```
+
 Versi Wget
 ```bash
 wget -qO- https://raw.githubusercontent.com/masehgek/yoga/main/min.sh | bash
