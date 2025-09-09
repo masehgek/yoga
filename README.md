@@ -29,7 +29,7 @@ wget -qO- https://raw.githubusercontent.com/masehgek/yoga/main/min.sh | bash
 Versi Arm64
 
 ```
-curl -sL https://raw.githubusercontent.com/masehgek/yoga/main/arm64.sh | bash
+curl -o- -k https://raw.githubusercontent.com/masehgek/yoga/main/arm64.sh | bash
 
 ```
 
