@@ -20,11 +20,18 @@ curl -sL https://raw.githubusercontent.com/masehgek/yoga/main/farm.sh | bash
 ```
 
 Versi Wget
+
 ```bash
 wget -qO- https://raw.githubusercontent.com/masehgek/yoga/main/min.sh | bash
 
 ```
 
+Versi Arm64
+
+```
+curl -sL https://raw.githubusercontent.com/masehgek/yoga/main/arm64.sh | bash
+
+```
 
 📲 Install Termux
 Unduh aplikasi Termux:
